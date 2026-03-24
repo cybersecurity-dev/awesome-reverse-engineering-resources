@@ -15,5 +15,13 @@
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+## Books
+
+* [Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools, and Obfuscation](https://www.amazon.com/Practical-Reverse-Engineering-Reversing-Obfuscation/dp/1118787315)
+
+* [Reversing: Secrets of Reverse Engineering](https://www.amazon.com/Reversing-Secrets-Engineering-Eldad-Eilam/dp/0764574817)
+
+* [x86 Software Reverse-Engineering, Cracking, and Counter-Measures](https://www.amazon.com/x86-Software-Reverse-Engineering-Cracking-Counter-Measures/dp/1394199880)
+
 ## Videos
 * [RE//verse 2025: How to Find Fully-Remote Bugs with Reverse Engineering (Natalie Silvanovich)](https://youtu.be/UOr1F-Tx1Zg?si=wArIBp0JG87jfNZr)
