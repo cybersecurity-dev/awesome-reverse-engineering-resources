@@ -33,6 +33,8 @@
 ### Videos
 * [RE//verse 2025: How to Find Fully-Remote Bugs with Reverse Engineering (Natalie Silvanovich)](https://youtu.be/UOr1F-Tx1Zg?si=wArIBp0JG87jfNZr)
 
+#### Video Series
+* [Introduction to Reverse Engineering by @olivestemlearning](https://youtube.com/playlist?list=PL2EF13wm-hWClpBrC4eCLD4NcdXiLsLEb&si=82sd9_0nFiSMJWms)
 
 ##
 
@@ -44,5 +46,8 @@ You can access the my other awesome lists [here](https://cyberthreatdefence.com/
 
 ### Contributors
 [Thanks goes to these contributors](https://github.com/cybersecurity-dev/awesome-reverse-engineering-resources/graphs/contributors)!
+
+### License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
 [🔼 Back to top](#awesome-reverse-engineering-resources-)
