@@ -9,7 +9,7 @@
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
@@ -21,6 +21,9 @@
 - [My Other Awesome Lists](#my-other-awesome-lists)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
+
+### Learning Hub
+* [FLARE Learning Hub](https://github.com/mandiant/flare-learning-hub)
 
 ### Books
 * Intel
@@ -35,6 +38,10 @@
 
 #### Video Series
 * [Introduction to Reverse Engineering by @olivestemlearning](https://youtube.com/playlist?list=PL2EF13wm-hWClpBrC4eCLD4NcdXiLsLEb&si=82sd9_0nFiSMJWms)
+
+### CTF
+* [The Flare-On Challenge](https://flare-on.com/)
+
 
 ##
 
