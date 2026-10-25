@@ -2,53 +2,53 @@
 
 ```mermaid
 flowchart TB
-    A[Reverse Engineering] --> B[1. Define Objective and Scope]
-    B --> B1[Target platform and file type]
-    B --> B2[Authorization, isolation, and safety]
-    B --> B3[Expected learning outcomes]
+    A[Reverse<br/>Engineering] --> B[1. Define Objective<br/>and Scope]
+    B --> B1[Target platform<br/>and file type]
+    B --> B2[Authorization,<br/>isolation,<br/>and safety]
+    B --> B3[Expected<br/>learning<br/>outcomes]
 
     B --> C[2. Initial Triage]
-    C --> C1[Identify format, architecture, and compiler clues]
-    C --> C2[Calculate hashes and inspect metadata]
-    C --> C3[Extract strings, imports, exports, and sections]
+    C --> C1[Identify format,<br/>architecture,<br/>and compiler clues]
+    C --> C2[Calculate<br/>hashes and<br/>inspect metadata]
+    C --> C3[Extract strings,<br/>imports, exports,<br/>and sections]
 
     C --> D{3. Select Analysis Path}
 
     D -->|Static| E[Static Analysis]
     E --> E1[Disassembly]
     E --> E2[Decompilation]
-    E --> E3[Control-flow and call-graph recovery]
-    E --> E4[Data-flow and structure recovery]
+    E --> E3[Control-flow<br/>and call-graph<br/>recovery]
+    E --> E4[Data-flow and<br/>structure<br/>recovery]
 
-    D -->|Dynamic| F[Dynamic Analysis]
-    F --> F1[Execute in an isolated laboratory]
-    F --> F2[Debug and trace instructions]
-    F --> F3[Monitor processes, files, registry, and APIs]
-    F --> F4[Observe network and memory behavior]
+    D -->|Dynamic| F[Dynamic<br/>Analysis]
+    F --> F1[Execute in an isolated<br/>laboratory]
+    F --> F2[Debug and trace<br/>instructions]
+    F --> F3[Monitor processes,<br/>files,<br/>registry,<br/>and APIs]
+    F --> F4[Observe network<br/>and<br/>memory behavior]
 
     E --> G[4. Program Understanding]
     F --> G
-    G --> G1[Locate entry points and key routines]
-    G --> G2[Rename functions and variables]
-    G --> G3[Recover algorithms and data structures]
-    G --> G4[Document findings and evidence]
+    G --> G1[Locate entry points<br/>and key routines]
+    G --> G2[Rename functions<br/>and<br/>variables]
+    G --> G3[Recover algorithms<br/>and<br/>data structures]
+    G --> G4[Document findings<br/>and<br/>evidence]
 
-    G --> H[5. Validation and Reporting]
-    H --> H1[Cross-check static and dynamic evidence]
-    H --> H2[Reproduce important observations]
-    H --> H3[Write technical report and mitigations]
-    H --> H4[Ethics, legal limits, and responsible disclosure]
+    G --> H[5. Validation<br/>and<br/>Reporting]
+    H --> H1[Cross-check static<br/>and<br/>dynamic evidence]
+    H --> H2[Reproduce<br/>important<br/>observations]
+    H --> H3[Write technical<br/>report and<br/>mitigations]
+    H --> H4[Ethics,<br/>legal limits, and<br/>responsible disclosure]
 
     subgraph T[Reverse-Engineering Toolset]
       direction LR
-      T1["Binary Triage<br/>file, strings, hashes, Detect It Easy"]
-      T2["Disassemblers and Decompilers<br/>Ghidra, IDA Free, Cutter, JADX"]
-      T3["Debuggers<br/>GDB, LLDB, WinDbg, x64dbg"]
-      T4["Dynamic Monitoring<br/>Process Monitor, Process Explorer, strace, ltrace"]
-      T5["Memory and Network<br/>Volatility, Wireshark, tcpdump"]
-      T6["Mobile and Managed Code<br/>Apktool, JADX, dnSpyEx, ILSpy"]
-      T7["Automation<br/>Python, Ghidra scripts, YARA"]
-      T8["Documentation<br/>Markdown, diagrams, evidence log"]
+      T1["Binary Triage<br/>file, strings, hashes,<br/>Detect It Easy"]
+      T2["Disassemblers and<br/>Decompilers<br/>Ghidra,<br/>IDA Free, Cutter, JADX"]
+      T3["Debuggers<br/>GDB,<br/>LLDB,<br/>WinDbg,<br/>x64dbg"]
+      T4["Dynamic Monitoring<br/>Process Monitor,<br/>Process Explorer, strace, ltrace"]
+      T5["Memory and Network<br/>Volatility,<br/>Wireshark,<br/>tcpdump"]
+      T6["Mobile and Managed Code<br/>Apktool,<br/>JADX,<br/>dnSpyEx,<br/>ILSpy"]
+      T7["Automation<br/>Python,<br/>Ghidra scripts,<br/>YARA"]
+      T8["Documentation<br/>Markdown,<br/>diagrams,<br/>evidence log"]
     end
 
     E -. uses .-> T2
@@ -76,8 +76,11 @@ flowchart TB
 # **`Awesome`** Reverse Engineering Resources [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
+[![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/cybersecurity-dev/awesome-android-reverse-engineering)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/cybersecurity-dev/awesome-linux-reverse-engineering)
+[![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/cybersecurity-dev/awesome-windows-reverse-engineering)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]() 
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)]()
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/ExploitDev/new/)
 
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
