@@ -42,6 +42,8 @@
 ### CTF
 * [The Flare-On Challenge](https://flare-on.com/)
 
+### AI Reverse Engineering Agent
+- [ReAgent](https://github.com/Dryxio/reagent)
 
 ##
 
