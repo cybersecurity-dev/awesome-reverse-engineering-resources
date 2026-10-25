@@ -7,14 +7,14 @@ flowchart TB
     B --> B2[Authorization,<br/>isolation,<br/>and safety]
     B --> B3[Expected<br/>learning<br/>outcomes]
 
-    B --> C[2. Initial Triage]
+    B --> C[2. Initial<br/>Triage]
     C --> C1[Identify format,<br/>architecture,<br/>and compiler clues]
     C --> C2[Calculate<br/>hashes and<br/>inspect metadata]
     C --> C3[Extract strings,<br/>imports, exports,<br/>and sections]
 
-    C --> D{3. Select Analysis Path}
+    C --> D{3. Select<br/>Analysis Path}
 
-    D -->|Static| E[Static Analysis]
+    D -->|Static| E[Static<br/>Analysis]
     E --> E1[Disassembly]
     E --> E2[Decompilation]
     E --> E3[Control-flow<br/>and call-graph<br/>recovery]
@@ -22,11 +22,11 @@ flowchart TB
 
     D -->|Dynamic| F[Dynamic<br/>Analysis]
     F --> F1[Execute in an isolated<br/>laboratory]
-    F --> F2[Debug and trace<br/>instructions]
+    F --> F2[Debug and<br/>trace<br/>instructions]
     F --> F3[Monitor processes,<br/>files,<br/>registry,<br/>and APIs]
     F --> F4[Observe network<br/>and<br/>memory behavior]
 
-    E --> G[4. Program Understanding]
+    E --> G[4. Program<br/>Understanding]
     F --> G
     G --> G1[Locate entry points<br/>and key routines]
     G --> G2[Rename functions<br/>and<br/>variables]
@@ -34,19 +34,19 @@ flowchart TB
     G --> G4[Document findings<br/>and<br/>evidence]
 
     G --> H[5. Validation<br/>and<br/>Reporting]
-    H --> H1[Cross-check static<br/>and<br/>dynamic evidence]
+    H --> H1[Cross-check<br/>static<br/>and<br/>dynamic evidence]
     H --> H2[Reproduce<br/>important<br/>observations]
     H --> H3[Write technical<br/>report and<br/>mitigations]
     H --> H4[Ethics,<br/>legal limits, and<br/>responsible disclosure]
 
     subgraph T[Reverse-Engineering Toolset]
       direction LR
-      T1["Binary Triage<br/>file, strings, hashes,<br/>Detect It Easy"]
-      T2["Disassemblers and<br/>Decompilers<br/>Ghidra,<br/>IDA Free, Cutter, JADX"]
+      T1["Binary<br/>Triage<br/>file, strings, hashes,<br/>Detect It Easy"]
+      T2["Disassemblers<br/>and<br/>Decompilers<br/>Ghidra,<br/>IDA Free, Cutter, JADX"]
       T3["Debuggers<br/>GDB,<br/>LLDB,<br/>WinDbg,<br/>x64dbg"]
-      T4["Dynamic Monitoring<br/>Process Monitor,<br/>Process Explorer, strace, ltrace"]
-      T5["Memory and Network<br/>Volatility,<br/>Wireshark,<br/>tcpdump"]
-      T6["Mobile and Managed Code<br/>Apktool,<br/>JADX,<br/>dnSpyEx,<br/>ILSpy"]
+      T4["Dynamic<br/>Monitoring<br/>Process Monitor,<br/>Process Explorer, strace, ltrace"]
+      T5["Memory and<br/>Network<br/>Volatility,<br/>Wireshark,<br/>tcpdump"]
+      T6["Mobile and<br/>Managed Code<br/>Apktool,<br/>JADX,<br/>dnSpyEx,<br/>ILSpy"]
       T7["Automation<br/>Python,<br/>Ghidra scripts,<br/>YARA"]
       T8["Documentation<br/>Markdown,<br/>diagrams,<br/>evidence log"]
     end
